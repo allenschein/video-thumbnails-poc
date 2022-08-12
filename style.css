@@ -1,0 +1,35 @@
+/* body {
+  background-color: black;
+} */
+
+span {
+  padding: 5px;
+}
+
+video,
+input {
+  display: block;
+}
+
+input {
+  width: 100%;
+}
+
+.actions {
+  margin: auto;
+  padding: 10px;
+  display: inline-flex;
+}
+
+.info {
+  background-color: aqua;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
+
+.thumbnails img {
+  padding: auto;
+}

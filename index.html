@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Capture Video Thumbs</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="actions">
+      <input id="videoUrl" type="text" value="https://cdn.jsdelivr.net/npm/big-buck-bunny-1080p@0.0.6/video.mp4" />
+      <button id="load">Load URL</button>
+      <span>OR</span>
+      <input id="videoFile" type="file" accept="video/*" />
+      <button id="capture">Capture Thumbnail!</button>
+    </div>
+    <div id="message"></div>
+    <div id="thumbnails"></div>
+    <video controls autoplay crossorigin="anonymous" />
+	  <script src="index.js"></script>
+  </body>
+</html>
